@@ -1,0 +1,11 @@
+---
+---
+@import "{{ site.theme }}";
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li {
+	display: inline;
+}
