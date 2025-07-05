@@ -1,0 +1,54 @@
+site:
+  url: https://sandersoncollectorsguild.com
+  site: Sanderson Collectors Guild
+  description: The Sanderson Collectors Guild homepage
+  icon: 
+  categories:
+    - scg
+store:
+  url: https://store.sandersoncollectorsguild.com
+  site: SCG Merch Store
+  description: The Sanderson Collectors Guild merch store
+  icon: 
+  categories: 
+    - scg
+discord:
+  url: https://discord.gg/scg
+  site: Discord
+  description: The Sanderson Collectors Guild Discord server
+  icon: discord
+  categories: 
+    - scg
+    - social
+facebook:
+  url: https://www.facebook.com/groups/178287579749175
+  site: Facebook
+  description: The Sanderson Collectors Guild Facebook group
+  icon: facebook
+  categories: 
+    - social
+instagram:
+  url: https://instagram.com/SandersonCollectorsGuild
+  site: Instagram
+  icon: instagram
+  categories: 
+    - social
+youtube:
+  url: https://youtube.com/@SandersonCollectorsGuild
+  site: Youtube
+  icon: youtube
+  categories: 
+    - social
+reddit:
+  url: https://reddit.com/user/SandersonGuild
+  site: Reddit
+  icon: reddit
+  categories: 
+    - social
+paypal:
+  url: https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8
+  site: PayPal
+  description: Donate to the Sanderson Collectors Guild
+  icon: paypal
+  categories:
+    - donate
