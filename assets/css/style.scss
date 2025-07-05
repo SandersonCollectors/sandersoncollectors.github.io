@@ -3,9 +3,11 @@
 @import "{{ site.theme }}";
 
 footer ul {
-	list-style-type: none;
+    list-style-type: none;
+    align: center;
 }
 
 footer ul li {
-	display: inline;
+    display: inline-block;
+    padding: 0 0.5rem;
 }
