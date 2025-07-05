@@ -25,3 +25,13 @@ Like with the Discord server, the Sanderson Collectors Guild Facebook group prov
 ## SCG Merch Store
 
 All these resources aren't cheap! Help support us by purchasing branded swag. All proceeds are rolled back in to the organization to fund future projects.
+
+---
+
+# Retired Projects
+
+## Dragonsteel Nexus Ticket Escrow Service
+
+Dragonsteel Nexus 2024 turned out to be an _extremely_ popular event that sold out in under an hour, even while the ticketing site was under heavy load. Within the days following ticket sales, the Guild leadership immediately noticed scammers and scalpers popping up online trying to make a quick buck by either selling tickets at massively inflated prices or "selling" tickets they did not actually have.
+
+Community leaders quickly agreed that reselling tickets would only be allowed if they were listed for face value, but the Sanderson Collectors Guild went a step further and set up the [Dragonsteel Nexus Ticket Escrow Service](https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/). Anyone hoping to purchase a ticket from a seller could contact the escrow service, who would serve as a neutral intermediary for facilitating the sale. It was [wildly successful](https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/)! By the time Dragonsteel Nexus 2024 started, the escrow service had helped people safely transact over $40,000 worth of tickets across 250+ transfers. Over 3% of all convention attendees ended up using the service in some form.
