@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Projects
+  link: /projects
+- name: Board
+  link: /board
+- name: Store
+  link: https://store.sandersoncollectorsguild.com
+- name: Discord
+  link: https://discord.gg/scg
+- name: Facebook
+  link: https://www.facebook.com/groups/178287579749175
