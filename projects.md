@@ -28,7 +28,7 @@ All these resources aren't cheap! Help support us by purchasing branded swag. Al
 
 ---
 
-# Retired Projects
+# Past Projects
 
 ## Dragonsteel Nexus Ticket Escrow Service
 
