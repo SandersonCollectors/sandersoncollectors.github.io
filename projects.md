@@ -8,6 +8,8 @@
 
 The Brandon Blue Book is a continuously-updated compendium of last-known sales data for Brandon's books on the open market. When looking to buy or sell, it is a valuable resource for gauging what the market currently believes a reasonable price for the item should be.
 
+View the latest edition here: [BrandonBlueBook.pdf](https://collectingsanderson.com/BrandonBlueBook.pdf)
+
 ## Dragonsteel Nexus Booth
 
 The Sanderson Collectors Guild has been a consistent exhibitor at every single convention run by Brandon and Dragonsteel, Inc. Our booth serves as a nexus for casual and avid collectors, often selling rare editions or freely giving away collecting information and advice to all convention goers. Look for us at this year's convention!
