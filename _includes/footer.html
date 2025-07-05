@@ -2,6 +2,7 @@
         <p><small>Copyright <script>var d = new Date(); document.write(d.getFullYear());</script>, {{ site.owner }}</small></p>
         <ul>
             {% for link in site.data.links %}
+              {{ link | inspect }}
             <li>
               <a href="{{ link.url }}" alt="{{ link.description }}">
                 <img width="16" height="16" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link.icon | append: ".svg" | relative_url }}" alt="{{ link.service }}" />
