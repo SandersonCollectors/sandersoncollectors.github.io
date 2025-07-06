@@ -30,8 +30,14 @@ All these resources aren't cheap! Help support us by purchasing branded swag. Al
 
 # Past Projects
 
+## Dragonsteel Nexus Night Brigade and Sunlit Fans
+
+One of the highlights of attending Dragonsteel Nexus for collectors is staying up all night in the line to receive a low-numbered book. In 2023, the Sanderson Collectors Guild organized "The Night Brigade" for fellow line participants. We paid for a coffee truck to come serve coffee, tea, and hot chocolate to fans from midnight until the drinks ran out. We also provided numbered buttons so people could easily recall their relative position in line.
+
+In 2024, when the line occurred mostly during the day, we organized "the Sunlit Fans" and again provided buttons to line participants.
+
 ## Dragonsteel Nexus Ticket Escrow Service
 
 Dragonsteel Nexus 2024 turned out to be an _extremely_ popular event that sold out in under an hour, even while the ticketing site was under heavy load. Within the days following ticket sales, the Guild leadership immediately noticed scammers and scalpers popping up online trying to make a quick buck by either selling tickets at massively inflated prices or "selling" tickets they did not actually have.
 
-Community leaders quickly agreed that reselling tickets would only be allowed if they were listed for face value, but the Sanderson Collectors Guild went a step further and set up the [Dragonsteel Nexus Ticket Escrow Service](https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/). Anyone hoping to purchase a ticket from a seller could contact the escrow service, who would serve as a neutral intermediary for facilitating the sale. It was [wildly successful](https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/)! By the time Dragonsteel Nexus 2024 started, the escrow service had helped people safely transact over $40,000 worth of tickets across 250+ transfers. Over 3% of all convention attendees ended up using the service in some form.
+Community leaders quickly agreed that reselling tickets would only be allowed if they were listed for face value, but the Sanderson Collectors Guild went a step further and set up the [Dragonsteel Nexus Ticket Escrow Service](https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/). Anyone hoping to purchase a ticket from a seller could contact the escrow service, who would serve as a neutral intermediary for facilitating the sale. It was [wildly successful](https://www.reddit.com/r/brandonsanderson/comments/1h5ozs5/dsnx_ticket_escrow_service_final_results/)! By the time Dragonsteel Nexus 2024 started, the escrow service had helped over 3% of all convention attendees safely transact over $40,000 worth of tickets across 250+ transfers.
