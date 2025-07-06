@@ -24,7 +24,7 @@ function linkify(element) {
 
   if (hasAnyTextChild(element)) {
     var svgContainer = document.createElement('span');
-    svgContainer.setAttribute("style", "padding-left: 0.25em;");
+    svgContainer.setAttribute("class", "external-link");
     svgContainer.innerHTML = extSVG;
     element.appendChild(svgContainer);
   }
