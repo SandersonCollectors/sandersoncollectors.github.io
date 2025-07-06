@@ -18,7 +18,7 @@ function linkify(element) {
 }
 
 function setup() {
-  const aTags = document.getElementsByClassName("a");
+  const aTags = document.getElementsByTagName("a");
   for (let i = 0; i < aTags.length; i++) {
     linkify(aTags[i]);
   }
