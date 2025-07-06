@@ -11,11 +11,11 @@ function linkify(element) {
 
   element.setAttribute("target", "_blank");
 
-  var svgDiv = document.createElement('div');
-  svgDiv.setAttribute("width", "100%");
-  svgDiv.setAttribute("height", "auto");
-  svgDiv.innerHTML = extSVG;
-  element.appendChild(svgDiv);
+  var svgContainer = document.createElement('span');
+  svgContainer.setAttribute("width", "100%");
+  svgContainer.setAttribute("height", "auto");
+  svgContainer.innerHTML = extSVG;
+  element.appendChild(svgContainer);
 }
 
 function setup() {
