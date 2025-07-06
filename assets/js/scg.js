@@ -9,7 +9,7 @@ function linkify(element) {
   if (href.startsWith("https://sandersoncollectorsguild.com/")) { return; }
   if (href.startsWith("https://www.sandersoncollectorsguild.com/")) { return; }
 
-  href.setAttribute("target", "_blank");
+  element.setAttribute("target", "_blank");
 
   var svgDiv = document.createElement('div');
   svgDiv.innerHTML = extSVG;
