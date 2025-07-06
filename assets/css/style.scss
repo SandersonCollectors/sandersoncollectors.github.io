@@ -2,6 +2,12 @@
 ---
 @import "{{ site.theme }}";
 
+a:hover, a:focus {
+    color: #069;
+    font-weight:normal;
+    text-decoration: underline;
+}
+
 svg {
     position: relative;
     flex-shrink: 0;
