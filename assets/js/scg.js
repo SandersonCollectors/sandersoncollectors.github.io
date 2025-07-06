@@ -3,10 +3,10 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="aut
 </svg>
 `;
 
-function hasAnyTextChild(element) {
-  if (element.nodeType === 3) { return true; }
-  for (let i = 0; i < element.children.length; i++) {
-    if (hasAnyTextChild(element.children[i])) { return true; }
+function hasAnyTextChild(node) {
+  if (node.nodeType === 3) { return true; }
+  for (let i = 0; i < node.childNodes.length; i++) {
+    if (hasAnyTextChild(node.childNodes[i])) { return true; }
   }
   return false;
 }
