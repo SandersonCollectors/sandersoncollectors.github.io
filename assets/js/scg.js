@@ -3,7 +3,7 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill
 </svg>
 `;
 
-function linkifyAnchor(element) {
+function linkify(element) {
   const href = element.getAttribute("href");
   if (href.startsWith("/")) { return; }
   if (href.startsWith("https://sandersoncollectorsguild.com/")) { return; }
@@ -17,9 +17,9 @@ function linkifyAnchor(element) {
   element.appendChild(svgNode);
 }
 
-function linkify() {
+function setup() {
   const aTags = document.getElementsByClassName("a");
   for (let i = 0; i < aTags.length; i++) {
-    linkifyAnchor(aTags[i]);
+    linkify(aTags[i]);
   }
 }
