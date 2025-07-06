@@ -4,7 +4,11 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="aut
 `;
 
 function hasAnyTextChild(element) {
-
+  if (element.nodeType === 3) { return true; }
+  for (let i = 0; i < element.children.length; i++) {
+    if (hasAnyTextChild(element.children[i]) { return true; }
+  }
+  return false;
 }
 
 function linkify(element) {
@@ -15,9 +19,12 @@ function linkify(element) {
 
   element.setAttribute("target", "_blank");
 
-  var svgContainer = document.createElement('span');
-  svgContainer.innerHTML = extSVG;
-  element.appendChild(svgContainer);
+  if (hasAnyTextChild(element)) {
+    var svgContainer = document.createElement('span');
+    svgContainer.setAttribute("style", "padding-left: 0.25em;");
+    svgContainer.innerHTML = extSVG;
+    element.appendChild(svgContainer);
+  }
 }
 
 function setup() {
