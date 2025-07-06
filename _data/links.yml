@@ -53,3 +53,11 @@ paypal:
   categories:
     - social
     - donate
+stripe:
+  url: https://donate.stripe.com/9B628r0F64ZQ91abvB93y00
+  site: Stripe
+  description: Donate to the Sanderson Collectors Guild
+  simple-icon: stripe
+  categories:
+    - social
+    - donate
