@@ -2,6 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
+footer {
+    text-align: center;
+}
+
 footer ul {
     list-style-type: none;
     align: center;
