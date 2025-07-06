@@ -12,9 +12,10 @@ function linkify(element) {
   element.setAttribute("target", "_blank");
 
   var svgDiv = document.createElement('div');
+  svgDiv.setAttribute("width", "100%");
+  svgDiv.setAttribute("height", "auto");
   svgDiv.innerHTML = extSVG;
-  const svgNode = svgDiv.firstElementChild;
-  element.appendChild(svgNode);
+  element.appendChild(svgDiv);
 }
 
 function setup() {
