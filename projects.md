@@ -30,7 +30,7 @@ All these resources aren't cheap! Help support us by purchasing branded swag. Al
 
 # Past Projects
 
-## Dragonsteel Nexus Night Brigade and Sunlit Fans
+## The Night Brigade (2023) and Sunlit Fans (2024)
 
 One of the highlights of attending Dragonsteel Nexus for collectors is staying up all night in the line to receive a low-numbered book. In 2023, the Sanderson Collectors Guild organized "The Night Brigade" for fellow line participants. We paid for a coffee truck to come serve coffee, tea, and hot chocolate to fans from midnight until the drinks ran out. We also provided numbered buttons so people could easily recall their relative position in line.
 
