@@ -4,7 +4,10 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill
 `;
 
 function hasAnyTextChild(node) {
-  if (node.nodeType === 3) { return true; }
+  if (node.nodeType === 3) {
+    const strContent = node.textContent;
+    return strContent.trim() !== '';
+  }
   for (let i = 0; i < node.childNodes.length; i++) {
     if (hasAnyTextChild(node.childNodes[i])) { return true; }
   }
