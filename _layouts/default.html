@@ -11,13 +11,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
+    {% if page.redirect %}
+    <meta http-equiv="refresh" content="2; url={{ page.redirect }}" />
+    {% endif %}
   </head>
   <body onload="setup()">
     <div class="wrapper">
       {% include header.html %}
       <section>
 
+      {% if page.redirect %}
+      <h1>Redirecting…</h1>
+      <h2>Click <a href="{{ page.redirect }}">here</a> if you are not immediately redirected.</h2>
+      {% else %}
       {{ content }}
+      {% endif %}
 
       </section>
       {% include footer.html %}
