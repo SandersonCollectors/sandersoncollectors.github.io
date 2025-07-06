@@ -6,7 +6,7 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="aut
 function hasAnyTextChild(element) {
   if (element.nodeType === 3) { return true; }
   for (let i = 0; i < element.children.length; i++) {
-    if (hasAnyTextChild(element.children[i]) { return true; }
+    if (hasAnyTextChild(element.children[i])) { return true; }
   }
   return false;
 }
