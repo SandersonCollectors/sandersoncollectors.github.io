@@ -7,7 +7,7 @@
             <li>
               <a href="{{ link[1].url }}" alt="{{ link[1].description }}">
                 {% if link[1].simple-icon %}
-                <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link[1].simple-icon | append: ".svg" | relative_url }}" alt="{{ link[1].service }}" />
+                <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link[1].simple-icon | append: ".svg" | relative_url }}" />
                 {% elsif link[1].svg %}
                 {{ link[1].svg }}
                 {% endif %}
