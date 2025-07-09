@@ -61,3 +61,11 @@ stripe:
   categories:
     - social
     - donate
+amazon:
+  url: https://a.co/dDkpBpG
+  site: Amazon
+  description: Purchase supplies for the Sanderson Collectors Guild
+  simple-icon: amazon
+  categories:
+    - social
+    - donate
