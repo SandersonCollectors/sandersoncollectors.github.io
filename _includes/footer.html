@@ -7,8 +7,14 @@
                 {% if thisLink.categories contains "social" %}
                   {% unless thisLink.categories contains "donate" %}
                     {% include footer_link.html link=thisLink %}
+                  {% else %}
+                    <li>Link {{ link[0] }} is a donate link</li>
                   {% endunless %}
+                {% else %}
+                  <li>Link {{ link[0] }} is not a social link</li>
                 {% endif %}
+              {% else %}
+                <li>Link {{ link[0] }} does not have an icon nor SVG</li>
               {% endif %}
             {% endfor %}
         </ul>
