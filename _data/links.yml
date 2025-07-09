@@ -48,7 +48,7 @@ reddit:
 paypal:
   url: https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8
   site: PayPal
-  description: Donate to the Sanderson Collectors Guild
+  description: Donate via PayPal
   simple-icon: paypal
   categories:
     - social
@@ -56,7 +56,7 @@ paypal:
 stripe:
   url: https://donate.stripe.com/9B628r0F64ZQ91abvB93y00
   site: Stripe
-  description: Donate to the Sanderson Collectors Guild
+  description: Donate via Stripe
   simple-icon: stripe
   categories:
     - social
@@ -64,7 +64,7 @@ stripe:
 amazon:
   url: https://a.co/dDkpBpG
   site: Amazon
-  description: Purchase supplies for the Sanderson Collectors Guild
+  description: Purchase from our Amazon Wishlist
   simple-icon: amazon
   categories:
     - social
