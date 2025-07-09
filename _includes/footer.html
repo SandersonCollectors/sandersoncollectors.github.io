@@ -2,12 +2,12 @@
         <p><small>Copyright <script>var d = new Date(); document.write(d.getFullYear());</script>, {{ site.owner }}</small></p>
         <ul>
             {% for link in site.data.links %}
+              {% assign linkKey = link[0] %}
               {% assign thisLink = link[1] %}
               {% if thisLink.simple-icon or thisLink.svg %}
                 {% if thisLink.categories contains "social" %}
                   {% unless thisLink.categories contains "donate" %}
-                    <li>Including {{ link[0[] }}</li>
-                    {% include footer_link.html link=thisLink %}
+                    {% include footer_link.html link=thisLink key=linkKey %}
                   {% endunless %}
                 {% endif %}
               {% endif %}
