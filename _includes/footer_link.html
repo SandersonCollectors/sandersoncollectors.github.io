@@ -1,0 +1,10 @@
+{% assign link = include.link %}
+<li>
+  <a href="{{ link.url }}" alt="{{ link.description }}">
+    {% if link.simple-icon %}
+    <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link.simple-icon | append: ".svg" | relative_url }}" />
+    {% elsif link.svg %}
+    {{ link.svg }}
+    {% endif %}
+  </a>
+</li>
