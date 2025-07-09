@@ -21,11 +21,12 @@ footer {
     text-align: center;
 }
 
-footer ul {
+footer ul.links {
     list-style-type: none;
     text-align: center;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 0.25em;
 }
 
 footer ul li {
