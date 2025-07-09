@@ -1,4 +1,6 @@
 {% assign link = include.link %}
+{{ link | jsonify }}
+{{ include | jsonify }}
 {% if link.simple-icon or link.svg %}
 <li>
   <a href="{{ link.url }}" alt="{{ link.description }}">
