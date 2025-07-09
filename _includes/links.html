@@ -5,11 +5,9 @@
 
   {% assign shouldInclude = true %}
   {% if include.include %}
-    {% if link.categories contains include.include %}
-      {% assign shouldInclude = true %}
-    {% else %}
+    {% unless link.categories contains include.include %}
       {% assign shouldInclude = false %}
-    {% endif %}
+    {% endunless %}
   {% endif %}
 
   {% if include.exclude and shouldInclude %}
