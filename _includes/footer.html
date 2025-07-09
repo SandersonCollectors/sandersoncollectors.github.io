@@ -3,24 +3,20 @@
         <ul>
             {% for link in site.data.links %}
               {% assign thisLink = link[1] %}
-              {% if thisLink.simple-icon or thisLink.svg %}
-                {% if thisLink.categories contains "social" %}
-                  {% unless thisLink.categories contains "donate" %}
-                    {% include footer_link.html link=thisLink %}
-                  {% endunless %}
-                {% endif %}
+              {% if thisLink.categories contains "social" %}
+                {% unless thisLink.categories contains "donate" %}
+                  {% include footer_link.html link=thisLink %}
+                {% endunless %}
               {% endif %}
             {% endfor %}
         </ul>
         <ul>
             {% for link in site.data.links %}
               {% assign thisLink = link[1] %}
-              {% if thisLink.simple-icon or thisLink.svg %}
-                {% if thisLink.categories contains "donate" %}
-                  {% unless thisLink.categories contains "social" %}
-                    {% include footer_link.html link=thisLink %}
-                  {% endunless %}
-                {% endif %}
+              {% if thisLink.categories contains "donate" %}
+                {% unless thisLink.categories contains "social" %}
+                  {% include footer_link.html link=thisLink %}
+                {% endunless %}
               {% endif %}
             {% endfor %}
         </ul>
