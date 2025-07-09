@@ -2,10 +2,11 @@
         <p><small>Copyright <script>var d = new Date(); document.write(d.getFullYear());</script>, {{ site.owner }}</small></p>
         <ul>
             {% for link in site.data.links |  %}
-              {% if link[1].simple-icon or link[1].svg %}
-                {% if link[1].categories contains "social" %}
-                  {% unless link[1].categories contains "donate" %}
-                    {% include footer_link.html link=link[1] %}
+              {% assign thisLink = link[1] %}
+              {% if thisLink.simple-icon or thisLink.svg %}
+                {% if thisLink.categories contains "social" %}
+                  {% unless thisLink.categories contains "donate" %}
+                    {% include footer_link.html link=thisLink %}
                   {% endunless %}
                 {% endif %}
               {% endif %}
@@ -13,10 +14,11 @@
         </ul>
         <ul>
             {% for link in site.data.links |  %}
-              {% if link[1].simple-icon or link[1].svg %}
-                {% if link[1].categories contains "donate" %}
-                  {% unless link[1].categories contains "social" %}
-                    {% include footer_link.html link=link[1] %}
+              {% assign thisLink = link[1] %}
+              {% if thisLink.simple-icon or link[1].svg %}
+                {% if thisLink.categories contains "donate" %}
+                  {% unless thisLink.categories contains "social" %}
+                    {% include footer_link.html link=thisLink %}
                   {% endunless %}
                 {% endif %}
               {% endif %}
