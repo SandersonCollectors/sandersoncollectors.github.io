@@ -1,13 +1,10 @@
-{% assign link = include.link %}
-{{ link | jsonify }}
-{{ include | jsonify }}
-{% if link.simple-icon or link.svg %}
+{% if include.link.simple-icon or include.link.svg %}
 <li>
-  <a href="{{ link.url }}" alt="{{ link.description }}">
-    {% if link.simple-icon %}
-    <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link.simple-icon | append: ".svg" | relative_url }}" />
-    {% elsif link.svg %}
-    {{ link.svg }}
+  <a href="{{ include.link.url }}" alt="{{ include.link.description }}">
+    {% if include.link.simple-icon %}
+    <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: include.link.simple-icon | append: ".svg" | relative_url }}" />
+    {% elsif include.link.svg %}
+    {{ include.link.svg }}
     {% endif %}
   </a>
 </li>
