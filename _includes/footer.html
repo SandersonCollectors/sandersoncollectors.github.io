@@ -1,24 +1,5 @@
       <footer>
         <p><small>Copyright <script>var d = new Date(); document.write(d.getFullYear());</script>, {{ site.owner }}</small></p>
-        <ul>
-            {% for link in site.data.links %}
-              {% assign thisLink = link[1] %}
-              {% if thisLink.categories contains "social" %}
-                {% unless thisLink.categories contains "donate" %}
-                  {% include footer_link.html link=thisLink %}
-                {% endunless %}
-              {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for link in site.data.links %}
-              {% assign thisLink = link[1] %}
-              {% if thisLink.categories contains "donate" %}
-                {% unless thisLink.categories contains "social" %}
-                  {% include footer_link.html link=thisLink %}
-                {% endunless %}
-              {% endif %}
-            {% endfor %}
-        </ul>
-        <div>Custom: {{ site.custom }}</div>
+        {% include links.html include="social" exclude="donate" %}
+        {% include links.html include="donate" exclude="social" %}
       </footer>
