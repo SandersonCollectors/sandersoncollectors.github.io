@@ -2,17 +2,22 @@
         <p><small>Copyright <script>var d = new Date(); document.write(d.getFullYear());</script>, {{ site.owner }}</small></p>
         <ul>
             {% for link in site.data.links |  %}
-              {% if link[1].categories contains "social" %}
-                {% if link[1].simple-icon or link[1].svg %}
-            <li>
-              <a href="{{ link[1].url }}" alt="{{ link[1].description }}">
-                {% if link[1].simple-icon %}
-                <img width="24" height="24" src="{{ 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/' | append: link[1].simple-icon | append: ".svg" | relative_url }}" />
-                {% elsif link[1].svg %}
-                {{ link[1].svg }}
+              {% if link[1].simple-icon or link[1].svg %}
+                {% if link[1].categories contains "social" %}
+                  {% unless link[1].categories contains "donate" %}
+                    {% include footer_link.html link=link[1] %}
+                  {% endunless %}
                 {% endif %}
-              </a>
-            </li>
+              {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for link in site.data.links |  %}
+              {% if link[1].simple-icon or link[1].svg %}
+                {% if link[1].categories contains "donate" %}
+                  {% unless link[1].categories contains "social" %}
+                    {% include footer_link.html link=link[1] %}
+                  {% endunless %}
                 {% endif %}
               {% endif %}
             {% endfor %}
