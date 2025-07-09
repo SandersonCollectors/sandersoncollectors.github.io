@@ -19,7 +19,7 @@
   {% endif %}
 
   {% if shouldInclude %}
-    {% include link.html link=link style=include.style %}
+    <li>{% include link.html link=link style=include.style %}</li>
   {% endif %}
 {% endfor %}
 </ul>
