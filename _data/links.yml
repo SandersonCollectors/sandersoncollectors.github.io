@@ -45,6 +45,12 @@ reddit:
   simple-icon: reddit
   categories: 
     - social
+linkedin:
+  url: https://www.linkedin.com/company/sanderson-collectors-guild/
+  site: LinkedIn
+  simple-icon: linkedin
+  categories:
+    - social
 paypal:
   url: https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8
   site: PayPal
