@@ -1,0 +1,25 @@
+<ul class="links">
+{% for linkHash in site.links %}
+  {% assign linkKey = linkHash[0] %}
+  {% assign link = linkHash[1] %}
+
+  {% assign shouldInclude = true %}
+  {% if include.include %}
+    {% if link.categories contains include.include %}
+      {% assign shouldInclude = true %}
+    {% else %}
+      {% assign shouldInclude = false %}
+    {% endif %}
+  {% endif %}
+
+  {% if include.exclude and shouldInclude %}
+    {% if link.categories contains include.exclude %}
+      {% assign shouldInclude = false %}
+    {% endif %}
+  {% endif %}
+
+  {% if shouldInclude %}
+    {% include link.html link=link style=include.style %}
+  {% endif %}
+{% endfor %}
+</ul>
