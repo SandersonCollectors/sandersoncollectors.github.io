@@ -6,15 +6,10 @@
               {% if thisLink.simple-icon or thisLink.svg %}
                 {% if thisLink.categories contains "social" %}
                   {% unless thisLink.categories contains "donate" %}
+                    <li>Including {{ link[0[] }}</li>
                     {% include footer_link.html link=thisLink %}
-                  {% else %}
-                    <li>Link {{ link[0] }} is a donate link</li>
                   {% endunless %}
-                {% else %}
-                  <li>Link {{ link[0] }} is not a social link</li>
                 {% endif %}
-              {% else %}
-                <li>Link {{ link[0] }} does not have an icon nor SVG</li>
               {% endif %}
             {% endfor %}
         </ul>
@@ -24,6 +19,7 @@
               {% if thisLink.simple-icon or thisLink.svg %}
                 {% if thisLink.categories contains "donate" %}
                   {% unless thisLink.categories contains "social" %}
+                    <li>Including {{ link[0[] }}</li>
                     {% include footer_link.html link=thisLink %}
                   {% endunless %}
                 {% endif %}
