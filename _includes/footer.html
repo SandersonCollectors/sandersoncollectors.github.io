@@ -1,11 +1,9 @@
       <footer>
-        <p><small>Copyright 2025
-          <script>
+        <p><small>Copyright 2025<script>
             var d = new Date(); 
             if (d.getFullYear() >= 2025) {        
               document.write("–" + d.getFullYear());
-            }
-          </script>, {{ site.owner }}</small></p>
+            }</script> {{ site.owner }}</small></p>
         <p><small>EIN: <code>{{ site.ein }}</code></small></p>
         {% include links.html include="social" exclude="donate" %}
         {% include links.html include="donate" %}
