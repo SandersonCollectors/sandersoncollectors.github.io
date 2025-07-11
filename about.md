@@ -6,7 +6,7 @@ What started as a small facebook group in late 2018 has grown over the years int
 
 ## Non-Profit
 
-The Sanderson Collectors Guild Inc. is a 501(c)(3) non-profit in the United States of America (determination pending). Our EIN is `39-2747328`.
+The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of America (determination pending). Our EIN is `{{ site.ein }}`.
 
 ## Governing Board
 
