@@ -18,13 +18,19 @@ The Sanderson Collectors Guild has been a consistent exhibitor at every single c
 
 The Sanderson Collectors Guild discord hosts thousands of collectors from around the world. There are educational resources, in-depth discussions, and even marketplaces for buying, selling, or auctioning off Sanderson collectibles. It's never too late to start collecting!
 
+Join the discord here: <a href="{{ site.data.links.discord.url }}" alt="{{ site.data.links.discord.description">{{ site.data.links.discord.url }}</a>
+
 ## SCG Facebook Group
 
 Like with the Discord server, the Sanderson Collectors Guild Facebook group provides a space for collectors to interact and transact with each other.
 
+Join the Facebook group here: <a href="{{ site.data.links.facebook.url }}" alt="{{ site.data.links.facebook.description">{{ site.data.links.facebook.url }}</a>
+
 ## SCG Merch Store
 
 All these resources aren't cheap! Help support us by purchasing branded swag. All proceeds are rolled back in to the organization to fund future projects.
+
+Browse our store here: <a href="{{ site.data.links.store.url }}" alt="{{ site.data.links.store.description">{{ site.data.links.store.url }}</a>
 
 ---
 
