@@ -8,7 +8,7 @@
 
 The Brandon Blue Book is a continuously-updated compendium of last-known sales data for Brandon's books on the open market. When looking to buy or sell, it is a valuable resource for gauging what the market currently believes a reasonable price for the item should be.
 
-View the latest edition here: [BrandonBlueBook.pdf](https://collectingsanderson.com/BrandonBlueBook.pdf)
+[View the latest edition here: BrandonBlueBook.pdf](https://collectingsanderson.com/BrandonBlueBook.pdf)
 
 ## Dragonsteel Nexus Booth
 
@@ -18,19 +18,19 @@ The Sanderson Collectors Guild has been a consistent exhibitor at every single c
 
 The Sanderson Collectors Guild discord hosts thousands of collectors from around the world. There are educational resources, in-depth discussions, and even marketplaces for buying, selling, or auctioning off Sanderson collectibles. It's never too late to start collecting!
 
-Join the discord here: [{{ site.data.links.discord.url }}]({{ site.data.links.discord.url }})
+[Join the discord here: {{ site.data.links.discord.url }}]({{ site.data.links.discord.url }})
 
 ## SCG Facebook Group
 
 Like with the Discord server, the Sanderson Collectors Guild Facebook group provides a space for collectors to interact and transact with each other.
 
-Join the Facebook group here: [{{ site.data.links.facebook.url }}]({{ site.data.links.facebook.url }})
+[Join the Facebook group here: {{ site.data.links.facebook.url }}]({{ site.data.links.facebook.url }})
 
 ## SCG Merch Store
 
 All these resources aren't cheap! Help support us by purchasing branded swag. All proceeds are rolled back in to the organization to fund future projects.
 
-Browse our store here: [{{ site.data.links.store.url }}]({{ site.data.links.store.url }})
+[Browse our store here: {{ site.data.links.store.url }}]({{ site.data.links.store.url }})
 
 ---
 
