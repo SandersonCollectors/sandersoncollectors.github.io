@@ -9,7 +9,9 @@
         <ul>
         {% for menuItem in site.data.menu %}
           {% assign linkClass = "" %}
-          {% if page.url == menuItem.link or page.url == menuItem.link | append: ".html" %}
+          {% assign htmlLink = menuItem.link | append: ".html" %}
+          {{ menuItem | inspect }}{{ page.link | inspect }}{{ htmlLink | inspect }}
+          {% if page.url == menuItem.link or page.url == htmlLink %}
             {% assign linkClass = "active" %}
           {% endif %}
           <li><a href="{{ menuItem.link }}" alt="{{ menuItem.name }}" class="menu {{ linkClass }}">{{ menuItem.name }}</a></li>
