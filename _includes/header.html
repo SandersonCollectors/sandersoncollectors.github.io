@@ -9,10 +9,7 @@
         <ul>
         {% for menuItem in site.data.menu %}
           {% assign linkClass = "" %}
-          {% assign splitURL = page.url | split: menuItem.link %}
-          {{ splitURL | inspect }}
-          {% assign splitCount = splitURL | size %}
-          {% if splitCount == 2 and splitCount[0] == "" %}
+          {% if page.url == menuItem.link or page.url == menuItem.link | append: ".html" %}
             {% assign linkClass = "active" %}
           {% endif %}
           <li><a href="{{ menuItem.link }}" alt="{{ menuItem.name }}" class="menu {{ linkClass }}">{{ menuItem.name }}</a></li>
