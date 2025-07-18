@@ -26,6 +26,26 @@ a:hover, a:focus {
     vertical-align: -0.1em;
 }
 
+header ul {
+    list-style-type: none;
+}
+
+
+header ul li a {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header ul li a:hover {
+    background: #ddd;
+    border-radius: 0.5em;
+}
+
+header ul li a:active {
+    background: #ccc;
+    border-radius: 0.5em;
+}
+
 header ul li a.active {
     font-weight: bold;
 }
