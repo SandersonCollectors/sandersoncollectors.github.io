@@ -10,7 +10,6 @@
         {% for menuItem in site.data.menu %}
           {% assign linkClass = "" %}
           {% assign htmlLink = menuItem.link | append: ".html" %}
-          {{ menuItem | inspect }}{{ page.url | inspect }}{{ htmlLink | inspect }}
           {% if page.url == menuItem.link or page.url == htmlLink %}
             {% assign linkClass = "active" %}
           {% endif %}
