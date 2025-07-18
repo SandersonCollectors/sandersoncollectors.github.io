@@ -2,6 +2,11 @@
 ---
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: ColusRegular;
+    src: url("/assets/font/Colus-Regular.otf") format("opentype");
+}
+
 a:hover, a:focus {
     font-weight: inherit;
     text-decoration: underline;
