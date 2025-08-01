@@ -54,6 +54,7 @@ linkedin:
 venmo:
   url: https://venmo.com/u/SandersonCollectorsGuild
   site: Venmo
+  description: Donate via Venmo
   simple-icon: venmo
   categories:
     - social
