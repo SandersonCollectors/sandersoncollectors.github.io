@@ -51,6 +51,13 @@ linkedin:
   simple-icon: linkedin
   categories:
     - social
+venmo:
+  url: https://venmo.com/u/SandersonCollectorsGuild
+  site: Venmo
+  simple-icon: venmo
+  categories:
+    - social
+    - donate
 paypal:
   url: https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8
   site: PayPal
