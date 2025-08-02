@@ -1,4 +1,4 @@
 ---
-title: {{ site.data.links.venmo.description }}
+title: Donate via Venmo
 redirect: https://venmo.com/u/SandersonCollectorsGuild
 ---
