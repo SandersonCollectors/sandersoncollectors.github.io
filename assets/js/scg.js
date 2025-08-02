@@ -4,6 +4,7 @@ const extSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill
 `;
 
 function hasAnyTextChild(node) {
+  if (node.nodeName.toUpperCase() === "SVG") { return false; }
   if (node.nodeType === 3) {
     const strContent = node.textContent;
     return strContent.trim() !== '';
