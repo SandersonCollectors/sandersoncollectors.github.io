@@ -4,6 +4,13 @@ The Sanderson Collectors Guild ("SCG") is a non-profit corporation focused on ed
 
 What started as a small facebook group in late 2018 has grown over the years into a several-thousand member community spread across the entire globe. Run by a small group of dedicated collectors, the Sanderson Collectors Guild is here to help you on your collecting journey, whether you're just starting off or hunting for that one elusive edition.
 
+Our focuses are:
+
+- Promoting education literacy
+- Public education around book care and preservation
+- Community outreach to readers — new and lifelong
+- Safe spaces for collectors and fans to connect
+
 ## Non-Profit
 
 The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of America (determination pending). Our EIN is `{{ site.ein }}`.
