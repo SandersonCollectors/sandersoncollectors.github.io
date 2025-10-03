@@ -13,7 +13,7 @@ Our focuses are:
 
 ## Non-Profit
 
-The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of America (determination pending). Our EIN is `{{ site.ein }}`.
+The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of America. Our EIN is `{{ site.ein }}`.
 
 ## Governing Board
 
