@@ -75,11 +75,11 @@ stripe:
   categories:
     - social
     - donate
-amazon:
-  url: https://a.co/dDkpBpG
-  site: Amazon
-  description: Purchase from our Amazon Wishlist
-  simple-icon: amazon
-  categories:
-    - social
-    - donate
+# amazon:
+#   url: https://a.co/dDkpBpG
+#   site: Amazon
+#   description: Purchase from our Amazon Wishlist
+#   simple-icon: amazon
+#   categories:
+#    - social
+#     - donate
