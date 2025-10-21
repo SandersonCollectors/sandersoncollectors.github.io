@@ -2,7 +2,7 @@
 
 ## CollectingSanderson.com
 
-[CollectingSanderson.com](https://collectingsanderson.com) is an in-depth database of most known editions of Brandon Sanderson's books. Stretching all the way back to before his first published works, it includes information on pre-release, foreign, and even illegal editions.
+[CollectingSanderson.com](https://collectingsanderson.com) is an in-depth database of most known editions of Brandon Sanderson's books. Stretching all the way back to before his first published works, it includes information on pre-release, foreign, and even unauthorized/illegal editions.
 
 ## Brandon Blue Book
 
