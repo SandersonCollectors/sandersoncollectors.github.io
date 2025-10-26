@@ -60,7 +60,7 @@ linkedin:
 #     - social
 #     - donate
 paypal:
-  url: https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8
+  url: https://paypal.com/us/fundraiser/charity/5569472
   site: PayPal
   description: Donate via PayPal
   simple-icon: paypal
