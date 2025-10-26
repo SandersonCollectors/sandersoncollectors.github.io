@@ -18,7 +18,9 @@ function hasAnyTextChild(node) {
 function linkify(element) {
   const href = element.getAttribute("href");
   if (href.startsWith("/")) { return; }
+  if (href.startsWith("https://sandersoncollectorsguild.org/")) { return; }
   if (href.startsWith("https://sandersoncollectorsguild.com/")) { return; }
+  if (href.startsWith("https://www.sandersoncollectorsguild.org/")) { return; }
   if (href.startsWith("https://www.sandersoncollectorsguild.com/")) { return; }
 
   element.setAttribute("target", "_blank");
