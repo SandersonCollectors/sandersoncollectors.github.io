@@ -59,6 +59,14 @@ linkedin:
 #   categories:
 #     - social
 #     - donate
+patreon:
+  url: https://www.patreon.com/cw/SandersonCollectorsGuild
+  size: Patreon
+  description: Support us on Patreon
+  simple-icon: patreon
+  categories:
+    - social
+    - donate
 zeffy:
   url: https://www.zeffy.com/en-US/donation-form/donate-to-the-sanderson-collectors-guild
   site: Zeffy
