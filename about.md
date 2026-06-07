@@ -19,10 +19,10 @@ The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of
 
 The governing board of the Sanderson Collectors Guild consists of:
 
-1. Austin Smith
+1. Bryan Vanderhoof
 2. Dave DeLong
-3. Lauren Hamilton
-4. Lexie Cenni
+3. David Coggins
+4. Lauren Hamilton
 5. Mark Lindberg
 6. Sara Samway
 7. Suzy Araiza
