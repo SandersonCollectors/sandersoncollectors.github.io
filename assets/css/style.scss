@@ -76,3 +76,189 @@ footer ul.links li {
 footer ul.links li svg {
     height: 24px;
 }
+
+/* Nexus 2026 directory */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.nexus-directory {
+    margin-top: 1.5em;
+}
+
+.nexus-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    margin-bottom: 1em;
+}
+
+.nexus-search input {
+    width: 100%;
+    box-sizing: border-box;
+    font: inherit;
+    padding: 0.55em 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    color: inherit;
+}
+
+.nexus-search input:focus {
+    outline: 2px solid #267cb9;
+    outline-offset: 1px;
+    border-color: #267cb9;
+}
+
+.nexus-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.nexus-filter-btn {
+    font: inherit;
+    font-size: 0.85em;
+    padding: 0.35em 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f6f6f6;
+    color: inherit;
+    cursor: pointer;
+}
+
+.nexus-filter-btn:hover {
+    border-color: #999;
+    background: #eee;
+}
+
+.nexus-filter-btn.active {
+    background: #267cb9;
+    border-color: #267cb9;
+    color: #fff;
+}
+
+.nexus-stats {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0 0 1em;
+}
+
+.nexus-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75em;
+}
+
+.nexus-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.85em 1em;
+    background: #fafafa;
+}
+
+.nexus-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75em;
+    margin-bottom: 0.65em;
+}
+
+.nexus-card-title {
+    font-family: ColusRegular, serif;
+    font-size: 1.05em;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.nexus-badge {
+    flex-shrink: 0;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+
+.nexus-badge-guests {
+    background: #f3e8ff;
+    color: #6b21a8;
+    border-color: #e9d5ff;
+}
+
+.nexus-badge-exhibitors {
+    background: #e0f2fe;
+    color: #075985;
+    border-color: #bae6fd;
+}
+
+.nexus-badge-authors {
+    background: #d1fae5;
+    color: #065f46;
+    border-color: #a7f3d0;
+}
+
+.nexus-badge-artists {
+    background: #fce7f3;
+    color: #9d174d;
+    border-color: #fbcfe8;
+}
+
+.nexus-badge-other {
+    background: #ffedd5;
+    color: #9a3412;
+    border-color: #fed7aa;
+}
+
+.nexus-badge-not-attending {
+    background: #fee2e2;
+    color: #991b1b;
+    border-color: #fecaca;
+}
+
+.nexus-card-actions {
+    margin-top: 0.25em;
+}
+
+.nexus-link {
+    font-size: 0.9em;
+}
+
+.nexus-link-disabled {
+    font-size: 0.9em;
+    color: #888;
+    font-style: italic;
+}
+
+.nexus-no-results {
+    text-align: center;
+    padding: 2em 1em;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    color: #666;
+    background: #fafafa;
+}
+
+.nexus-no-results p {
+    margin: 0.35em 0;
+}
+
+@media (min-width: 900px) {
+    .nexus-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
