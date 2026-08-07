@@ -23,6 +23,6 @@ The governing board of the Sanderson Collectors Guild consists of:
 2. Dave DeLong
 3. David Coggins
 4. Lauren Hamilton
-5. Mark Lindberg
+5. Rachel Rada
 6. Sara Samway
 7. Suzy Araiza

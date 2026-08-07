@@ -1,0 +1,775 @@
+- name: Holly Black
+  url: https://blackholly.com/
+  category: guests
+
+- name: Jake Parker
+  url: https://www.mrjakeparker.com/
+  category: guests
+  
+- name: Joe Abercrombie
+  url: https://joeabercrombie.com/
+  category: guests
+
+- name: Martha Wells
+  url: https://www.marthawells.com/
+  category: guests
+
+- name: Matt Dinniman
+  url: https://mattdinniman.com/
+  category: guests
+
+- name: SA Chakraborty
+  url: https://www.sachakraborty.com/
+  category: guests
+
+- name: Sara Beth Durst
+  url: http://www.sarahbethdurst.com/
+  category: guests
+
+- name: Tran Nguyen
+  url: https://www.mynameistran.com/
+  category: guests
+
+- name: 17th Shard
+  url: https://www.17thshard.com/
+  category: exhibitors
+
+- name: Adrienne McElwain / Crystal Barista
+  url: https://www.crystalbarista.com/
+  category: exhibitors
+
+- name: Alpacasews / Emily Foster
+  url: https://alpacasews.com/
+  category: exhibitors
+
+- name: Arbor Armory
+  url: https://www.instagram.com/arborarmory/
+  category: exhibitors
+
+- name: Badali Jewelry
+  url: https://badalijewelry.com/
+  category: exhibitors
+
+- name: Black Oak Bindery
+  url: https://www.blackoakbindery.com/
+  category: exhibitors
+
+- name: Brotherwise Games
+  url: https://www.brotherwisegames.com/
+  category: exhibitors
+
+- name: Citrus Atelier
+  url: https://www.citrusatelier.com
+  category: exhibitors
+
+- name: Clotho Cloaks
+  url: https://clothocloaks.com/
+  category: exhibitors
+
+- name: Dragon Roast Coffee
+  url: https://dragonroast.coffee
+  category: exhibitors
+
+- name: Dragon Woodshop
+  url: https://dragonwoodshop.com/
+  category: exhibitors
+
+- name: Dungeon Master Direct
+  url: https://dungeonmasterdirect.com/
+  category: exhibitors
+
+- name: Enchanting Artistry (Rhiannon Fleener)
+  url: https://www.enchanting-artistry.com/
+  category: exhibitors
+
+- name: Geeklectic Megumi's Catfe
+  url: https://geeklecticshop.com/
+  category: exhibitors
+
+- name: Gifford Gaming
+  url: https://www.giffordgaming.com/
+  category: exhibitors
+
+- name: Grim Oak Press (Shawn Speakman)
+  url: https://grimoakpress.com/
+  category: exhibitors
+
+- name: Honey Girl Farms
+  url: https://www.honeygirlfarms.com/
+  category: exhibitors
+
+- name: Honu Wear
+  url: https://www.honuwear.com/
+  category: exhibitors
+
+- name: I'm A Fan
+  url: https://imafan.net/
+  category: exhibitors
+
+- name: Interstellar Dice
+  url: https://www.interstellardice.com
+  category: exhibitors
+
+- name: Konstanz Silverbow / Silverbow Beauties
+  url: https://www.etsy.com/shop/SilverbowBeauties
+  category: exhibitors
+
+- name: Level 99 Games
+  url: https://www.level99games.com/
+  category: exhibitors
+
+- name: Lit Escalates
+  url: https://www.lit-escalates.com/
+  category: exhibitors
+
+- name: Moses Mystical
+  url: https://www.instagram.com/moses_mystical/
+  category: exhibitors
+
+- name: Moth & Monarch
+  url: https://www.mothandmonarch.com/
+  category: exhibitors
+
+- name: Nail Legends
+  url: https://www.naillegendssalon.com/
+  category: exhibitors
+
+- name: Paper Moth Studio
+  url: https://papermothstudio.com/
+  category: exhibitors
+
+- name: Professor Rose Creations
+  url: https://www.instagram.com/profrosecreations
+  category: exhibitors
+
+- name: Queens Closet by Dowdle
+  url: https://www.instagram.com/queensclosetbydowdle/
+  category: exhibitors
+
+- name: Riftgate Games
+  url: https://riftgate.com/
+  category: exhibitors
+
+- name: Sanderson Collectors Guild
+  url: https://sandersoncollectorsguild.org/
+  category: exhibitors
+
+- name: Scarves of Holding
+  url: https://www.scarvesofholding.com/
+  category: exhibitors
+
+- name: SFF Addicts Podcast
+  url: https://fanfiaddict.com/sff-addicts/
+  category: exhibitors
+
+- name: Soundbooth Theater
+  url: https://soundbooththeater.com/
+  category: exhibitors
+
+- name: Tess Campbell (Tesselation Patterns)
+  url: https://tesselationpatterns.com/
+  category: exhibitors
+
+- name: The Gilded Teafling
+  url: https://thegildedteafling.com
+  category: exhibitors
+
+- name: Tiffani Sahara / Dusty Rabbit
+  url: https://www.tiffani-sahara.com/dusty-rabbit
+  category: exhibitors
+
+- name: We Geek Together
+  url: https://www.wegeektogether.com/
+  category: exhibitors
+
+- name: Wraithmarked Creative
+  url: https://wraithmarked.com/
+  category: exhibitors
+
+- name: Wyvern Warfare
+  url: https://wyvernwarfare.com/
+  category: exhibitors
+
+- name: Aaron Hall
+  url: https://www.aaronnhall.com/
+  category: authors
+
+- name: Adam Bassett (cartographer/illustrator)
+  url: https://www.adamcbassett.com/
+  category: authors
+
+- name: Adrian Gibson
+  url: https://www.adrianmgibson.com/
+  category: authors
+
+- name: Amber Hamilton
+  url: https://www.amhamwrites.com/
+  category: authors
+
+- name: Amber Rae Toro
+  url: https://www.instagram.com/amberraetoro/
+  category: authors
+
+- name: Andy Peloquin
+  url: https://andypeloquin.com/
+  category: authors
+
+- name: Becca Lee Gardner
+  url: https://beccaleeg.com/
+  category: authors
+
+- name: Brady Hunsaker – Lightfire Publishing
+  url: https://bradyhunsaker.com/
+  category: authors
+
+- name: Brandon Gillespie – Revenant Creative Studio
+  url: https://revenant.studio/
+  category: authors
+
+- name: Brendan Noble
+  url: https://brendan-noble.com/
+  category: authors
+
+- name: Brent Weeks
+  url: https://www.brentweeks.com/
+  category: authors
+
+- name: Brian McClellan
+  url: https://www.brianmcclellan.com/
+  category: authors
+
+- name: Bryan Asher
+  url: https://www.instagram.com/asher_novels/
+  category: authors
+
+- name: C.B. Haight
+  url: https://x.com/CBhaight
+  category: authors
+
+- name: Cassie Caye Gibson
+  url: https://www.authorcassiecaye.com/
+  category: authors
+
+- name: Charlie Holmberg
+  url: https://www.charlienholmberg.com/
+  category: authors
+
+- name: Christopher Ruocchio
+  url: https://www.highmatterbooks.com/
+  category: authors
+
+- name: Corwin Michaels
+  url: https://www.corwinmichaels.com/
+  category: authors
+
+- name: Dan Wells
+  url: https://www.thedanwells.com/
+  category: authors
+
+- name: D.L. Jennings
+  url: https://dl-jennings.com/
+  category: authors
+
+- name: Dave Lawson
+  url: https://www.instagram.com/dlawsonauthor/
+  category: authors
+
+- name: David A Trotter
+  url: https://dat-publishing-llc-rpcdor.mailerpage.io/
+  category: authors
+
+- name: Derek Alan Siddoway
+  url: https://derekalansiddoway.com/
+  category: authors
+
+- name: Dito Abbott
+  url: https://ditoabbott.com/
+  category: authors
+
+- name: Elena Sobol
+  url: https://www.elenasobolauthor.com/
+  category: authors
+
+- name: Eldon Thompson
+  url: https://eldonthompson.com/
+  category: authors
+
+- name: Evan Leikam
+  url: https://www.instagram.com/book_reviews_kill/
+  category: authors
+
+- name: G.J. Terral
+  url: https://stationarymomentum.com/
+  category: authors
+
+- name: Gracie Marsden
+  url: https://www.graciemarsden.com/
+  category: authors
+
+- name: Hayley Rae Johnson
+  url: https://www.instagram.com/hayleyraejohnson/
+  category: authors
+
+- name: Haylock Jobson
+  url: https://www.haylockjobson.com/
+  category: authors
+
+- name: J.A. Andrews
+  url: https://jaandrews.com/
+  category: authors
+
+- name: J.D.L Rosell
+  url: https://jdlrosell.com/
+  category: authors
+
+- name: Jacob John White (BellRinger)
+  url: https://www.brbellringer.com/
+  category: authors
+
+- name: Jade Kim Monsen
+  url: https://www.jadekimmonsen.com/
+  category: authors
+
+- name: Janci Patterson
+  url: https://www.jancipatterson.com/
+  category: authors
+
+- name: Jared Woodcox
+  url: https://shadowcasterseries.com/
+  category: authors
+
+- name: Julia Vee
+  url: https://juliavee.com/
+  category: authors
+
+- name: Ken Bebelle
+  url: https://kenbebelle.com/
+  category: authors
+
+- name: K. Aagard
+  url: https://www.kaagard.com/
+  category: authors
+
+- name: K.R. House
+  url: https://krhousebooks.com/
+  category: authors
+
+- name: Kaden Love
+  url: https://www.kadenrlove.com/
+  category: authors
+
+- name: Kaitlund Zupanic (Drawn to Dragons)
+  url: https://www.kaitlundzupanic.com/
+  category: authors
+
+- name: Kate Korsak
+  url: https://www.katekorsak.com/
+  category: authors
+
+- name: Kenny Gould
+  url: https://www.kennygould.com/
+  category: authors
+
+- name: KL Hester
+  url: https://klhesterwrites.com/
+  category: authors
+
+- name: Larry Correia
+  url: https://monsterhunternation.com/
+  category: authors
+
+- name: Lena Jeong
+  url: https://www.lenajeong.com/
+  category: authors
+
+- name: Lynn Buchanan
+  url: https://www.lynnbwrites.com/
+  category: authors
+
+- name: MH Woodscourt
+  url: https://mhwoodscourt.com/
+  category: authors
+
+- name: Michelle J. Diaz
+  url: https://michellejdiaz.com/
+  category: authors
+
+- name: Michael Michel
+  url: https://michaelmichelauthor.com/
+  category: authors
+
+- name: Michael R. Miller
+  url: https://www.michaelrmiller.co.uk/
+  category: authors
+
+- name: Michael Vadney
+  url: https://michaelvadney.com/
+  category: authors
+
+- name: Nathan Ameye
+  url: https://nathanameye.com/
+  category: authors
+
+- name: Nico Vincenty
+  url: https://www.nicovincenty.com/
+  category: authors
+
+- name: Peter Orullian
+  url: https://www.orullian.rocks/
+  category: authors
+
+- name: Qilanna Quinn
+  url: https://www.qilannaquinn.com/
+  category: authors
+
+- name: R. Lynn Hanks
+  url: https://www.rlynnhanks.com/
+  category: authors
+
+- name: Rachel Rener
+  url: https://rachelrener.com/
+  category: authors
+
+- name: Ravenna Vale
+  url: https://www.ravennavale.com/
+  category: authors
+
+- name: Richard Fierce (Dragonfire Press)
+  url: https://www.richardfierce.com/
+  category: authors
+
+- name: Rose Garcia
+  url: https://rosegarciabooks.com
+  category: authors
+
+- name: Ryan Cahill
+  url: https://www.ryancahillauthor.com/
+  category: authors
+
+- name: S.A. Klopfenstein
+  url: https://www.authorsaklopfenstein.com/
+  category: authors
+
+- name: S.L. Rowland
+  url: https://slrowland.com/
+  category: authors
+
+- name: Seth Ring
+  url: https://sethring.com/
+  category: authors
+
+- name: Steve Diamond
+  url: https://www.facebook.com/SteveDDiamond
+  category: authors
+
+- name: Tao Wong
+  url: https://www.mylifemytao.com/
+  category: authors
+
+- name: Taryn McQueen Skipper
+  url: https://skipperbooks.com/
+  category: authors
+
+- name: The Wandering Inn / Pirateaba
+  url: https://wanderinginn.com/
+  category: authors
+
+- name: Todd Fahnestock
+  url: https://toddfahnestock.com/
+  category: authors
+
+- name: Tommy Kerper
+  url: https://www.sourpatchhero.com/
+  category: authors
+
+- name: Tori Lundell
+  url: https://torilundell.com/
+  category: authors
+
+- name: Tricia Levenseller
+  url: https://tricialevenseller.com/
+  category: authors
+
+- name: Wesley Chu
+  url: https://wesleychu.com
+  category: authors
+
+- name: Will Wight
+  url: https://www.willwight.com/
+  category: authors
+
+- name: Z.S. Diamanti
+  url: https://zsdiamanti.com/
+  category: authors
+
+- name: Abi Park (The Nerdy Alchemist)
+  url: https://thenerdyalchemist.com/
+  category: artists
+
+- name: Alannah Rose
+  url: https://www.alannahroseart.com
+  category: artists
+
+- name: ALemonLeaf (Jenna Lee Ahlman)
+  url: https://alemonleaf.carrd.co/
+  category: artists
+
+- name: Allen Panakal
+  url: https://allenpanakalancientones.com/
+  category: artists
+
+- name: Alondra Uhi
+  url: https://alondrauhi.com/
+  category: artists
+
+- name: Alyssa Tallent
+  url: https://www.alyssatallent.com/
+  category: artists
+
+- name: Anadian-Chan
+  url: https://www.artstation.com/anadia-chan
+  category: artists
+
+- name: Ashley "Ash" Coad
+  url: http://www.ashleycoadart.com/
+  category: artists
+
+- name: Austin Hartell (Dungeon Artist)
+  url: https://austinhartell.com/
+  category: artists
+
+- name: Barn Lam (Lauren Sohre)
+  url: http://lmattsonart.com/
+  category: artists
+
+- name: Bruce Brenneise
+  url: https://www.brucebrenneise.com/
+  category: artists
+
+- name: Bryan Mark Taylor
+  url: https://bryanmarktaylor.com/
+  category: artists
+
+- name: Camilla Watson
+  url: https://www.camillawatsonart.com/
+  category: artists
+
+- name: Dan Dos Santos
+  url: https://www.dandossantos.com/
+  category: artists
+
+- name: Danny Schlitz
+  url: https://www.dannyschlitz.com/
+  category: artists
+
+- name: Doan Trang
+  url: https://www.doantrangillustration.com
+  category: artists
+
+- name: Dreamweave Studio (Anya Robbins)
+  url: https://www.dreamweavestudio.com/
+  category: artists
+
+- name: Emily E Draws
+  url: https://www.instagram.com/emily.e.draws/
+  category: artists
+
+- name: Esther Hi'ilani Candari
+  url: https://www.hiilanifinearts.com/
+  category: artists
+
+- name: Gentledragon Art
+  url: https://www.instagram.com/gentledragon_art/
+  category: artists
+
+- name: Geoff Shupe
+  url: https://www.geoffshupeillustration.com/
+  category: artists
+
+- name: Howard Lyon
+  url: https://www.howardlyon.com/
+  category: artists
+
+- name: Jacob Belway (Art By Jab)
+  url: https://www.jacobbelway.com/
+  category: artists
+
+- name: Jeff Brown
+  url: https://www.jeffbrowngraphics.com/
+  category: artists
+
+- name: Jen Monson (JenUoneArt)
+  url: https://www.jenuoneart.com/
+  category: artists
+
+- name: Jennifer Mellen
+  url: https://www.jennifermellen.com/
+  category: artists
+
+- name: Julia Maddalina
+  url: https://jmaddalina.myportfolio.com/
+  category: artists
+
+- name: Julia Mann
+  url: https://www.artofjuliamann.com/
+  category: artists
+
+- name: Kai Johnson / Kaijere Art Studios
+  url: https://www.kaijereartstudios.com/
+  category: artists
+
+- name: Kip Rasmussen
+  url: https://www.kiprasmussen.com/
+  category: artists
+
+- name: Marcus Harding
+  url: https://marcuscomix.com/
+  category: artists
+
+- name: Noah Page
+  url: https://www.sipofgrit.com/
+  category: artists
+
+- name: Painted Dragon Studio
+  url: https://painteddragonstudios.com/
+  category: artists
+
+- name: Raden Studios
+  url: https://radenstudios.com/
+  category: artists
+
+- name: Rae Allen
+  url: https://www.raeallenart.com/
+  category: artists
+
+- name: Rebecca Sorge Jensen
+  url: https://rebeccasorge.wordpress.com/
+  category: artists
+
+- name: Rin Nisnow (Nisnow Studios)
+  url: https://nisnow.art/
+  category: artists
+
+- name: Sarah Finnigan
+  url: https://www.sarahfinnigan.com/
+  category: artists
+
+- name: Sittrus Light (Makenna O'Keefe)
+  url: https://www.instagram.com/sittruslight/
+  category: artists
+
+- name: Stephen Najarian
+  url: https://www.najarianart.com/
+  category: artists
+
+- name: Steve Argyle
+  url: https://www.steveargyle.com/
+  category: artists
+
+- name: Zoe Shaffer
+  url: https://www.instagram.com/zoeshaffer_art/
+  category: artists
+
+- name: Adoylible
+  url: https://www.instagram.com/adoylible/
+  category: other
+
+- name: Christopher Paolini
+  url: https://www.paolini.net/
+  category: other
+
+- name: Steve Pond / The Cosmerenaut
+  url: https://www.instagram.com/thecosmerenaut/
+  category: other
+
+- name: Zack Argyle
+  url: https://www.zackargyle.com/
+  category: other
+
+- name: A Charmed Life SLC
+  url: 
+  category: not-attending
+
+- name: Aydin Rizqi
+  url: 
+  category: not-attending
+
+- name: Caitlin Sangster
+  url: 
+  category: not-attending
+
+- name: Daniel Quilter
+  url: 
+  category: not-attending
+
+- name: Donato Giancola (Donato Arts)
+  url: 
+  category: not-attending
+
+- name: Dragon Bone Publishing
+  url: 
+  category: not-attending
+
+- name: Grim Dyes
+  url: 
+  category: not-attending
+
+- name: H.Y. Gregor
+  url: 
+  category: not-attending
+
+- name: Invictus Armored Combat
+  url: 
+  category: not-attending
+
+- name: Jason Denzel
+  url: 
+  category: not-attending
+
+- name: J & D Gnomes & Crystals
+  url: 
+  category: not-attending
+
+- name: Kühn Products
+  url: 
+  category: not-attending
+
+- name: Logan Piercey
+  url: 
+  category: not-attending
+
+- name: Michael J. Sullivan
+  url: 
+  category: not-attending
+
+- name: Nat20
+  url: 
+  category: not-attending
+
+- name: Natalie Brianne
+  url: 
+  category: not-attending
+
+- name: Rachel Grant (Hemlock Ink)
+  url: 
+  category: not-attending
+
+- name: Robin Hobb
+  url: 
+  category: not-attending
+
+- name: Robin's Nerd Supplies
+  url: 
+  category: not-attending
+
+- name: Shire Post Mint
+  url: 
+  category: not-attending
+
+- name: Tori Tecken
+  url: 
+  category: not-attending
+
+- name: Weston Warnock
+  url: 
+  category: not-attending
