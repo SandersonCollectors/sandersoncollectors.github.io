@@ -6,9 +6,39 @@
   const filters = document.getElementById("nexusFilters");
   const stats = document.getElementById("nexusStats");
   const noResults = document.getElementById("nexusNoResults");
-  const cards = Array.from(root.querySelectorAll(".nexus-card"));
-  const total = cards.length;
+  const grid = document.getElementById("nexusGrid");
 
+  const CATEGORY_ORDER = [
+    "guests",
+    "exhibitors",
+    "authors",
+    "artists",
+    "other",
+    "not-attending",
+  ];
+
+  const categoryRank = CATEGORY_ORDER.reduce((map, category, index) => {
+    map[category] = index;
+    return map;
+  }, Object.create(null));
+
+  const cards = Array.from(grid.querySelectorAll(".nexus-card")).sort(
+    (a, b) => {
+      const rankA = categoryRank[a.dataset.category] ?? Number.MAX_SAFE_INTEGER;
+      const rankB = categoryRank[b.dataset.category] ?? Number.MAX_SAFE_INTEGER;
+      if (rankA !== rankB) return rankA - rankB;
+
+      return (a.dataset.name || "").localeCompare(b.dataset.name || "", undefined, {
+        sensitivity: "base",
+        numeric: true,
+      });
+    }
+  );
+
+  // Re-append in sorted/group order so layout is independent of YAML order.
+  cards.forEach((card) => grid.appendChild(card));
+
+  const total = cards.length;
   let currentFilter = "all";
 
   function applyFilters() {
