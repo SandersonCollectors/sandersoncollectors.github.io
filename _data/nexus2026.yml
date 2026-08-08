@@ -1,3 +1,9 @@
+- name: Lyndsey Luthor
+  url: https://lyndseyluther.com
+  category:
+    - authors
+    - panelists
+
 - name: Holly Black
   url: https://blackholly.com/
   category: guests
@@ -153,6 +159,8 @@
 - name: Sanderson Collectors Guild
   url: https://sandersoncollectorsguild.org/
   category: exhibitors
+  tags:
+    - scg
 
 - name: Scarves of Holding
   url: https://www.scarvesofholding.com/

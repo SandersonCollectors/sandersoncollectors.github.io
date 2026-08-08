@@ -84,7 +84,9 @@
       const matchesFilter =
         currentFilter === "all" || card.dataset.category === currentFilter;
       const matchesSearch =
-        !query || (card.dataset.name || "").includes(query);
+        !query ||
+        (card.dataset.name || "").includes(query) ||
+        (card.dataset.tags || "").includes(query);
       const show = matchesFilter && matchesSearch;
       card.hidden = !show;
       if (show) visible += 1;

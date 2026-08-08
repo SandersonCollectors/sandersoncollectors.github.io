@@ -20,7 +20,7 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
   <div class="nexus-controls">
     <label class="nexus-search">
       <span class="visually-hidden">Search directory</span>
-      <input type="search" id="nexusSearch" placeholder="Search by name, brand, or keyword…" autocomplete="off">
+      <input type="search" id="nexusSearch" placeholder="Search by name or keyword…" autocomplete="off">
     </label>
     <div class="nexus-filters" id="nexusFilters" role="group" aria-label="Filter by category">
       <button type="button" class="nexus-filter-btn active" data-filter="all">All</button>
@@ -67,6 +67,7 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
           class="nexus-card"
           data-category="{{ cat_key }}"
           data-name="{{ entry.name | downcase | escape }}"
+          {% if entry.tags and entry.tags.size > 0 %}data-tags="{{ entry.tags | join: " " | downcase | escape }}"{% endif %}
         >
           <div class="nexus-card-top">
             <h3 class="nexus-card-title">{{ entry.name }}</h3>
