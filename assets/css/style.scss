@@ -188,6 +188,15 @@ footer ul.links li svg {
     word-break: break-word;
 }
 
+.nexus-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em;
+    justify-content: flex-end;
+    flex: 0 1 auto;
+    max-width: 55%;
+}
+
 .nexus-badge {
     flex: 0 0 auto;
     font-size: 0.7em;

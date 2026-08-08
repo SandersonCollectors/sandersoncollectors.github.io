@@ -6,11 +6,7 @@ title: Dragonsteel Nexus 2026 Directory
 
 Browse featured guests, exhibitors, authors, artists, panelists, and other attendees for Dragonsteel Nexus 2026.
 
-{% assign total_cards = 0 %}
-{% for entry in site.data.nexus2026 %}
-  {% include nexus_entry_categories.html entry=entry %}
-  {% assign total_cards = total_cards | plus: entry_cats.size %}
-{% endfor %}
+{% assign total_cards = site.data.nexus2026 | size %}
 
 <div class="nexus-directory" id="nexusDirectory" data-total="{{ total_cards }}">
   <div class="nexus-controls">
@@ -35,47 +31,49 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
   <div class="nexus-grid" id="nexusGrid">
     {% for entry in site.data.nexus2026 %}
       {% include nexus_entry_categories.html entry=entry %}
-      {% for cat in entry_cats %}
-        {% assign cat_key = cat | strip %}
-        {% unless cat_key == "" %}
-        {% case cat_key %}
-          {% when "guests" %}
-            {% assign badge_label = "Featured Guest" %}
-          {% when "exhibitors" %}
-            {% assign badge_label = "Exhibitor" %}
-          {% when "authors" %}
-            {% assign badge_label = "Author" %}
-          {% when "artists" %}
-            {% assign badge_label = "Artist" %}
-          {% when "panelists" %}
-            {% assign badge_label = "Panelist" %}
-          {% when "other" %}
-            {% assign badge_label = "Attendee" %}
-          {% when "not-attending" %}
-            {% assign badge_label = "Not Attending" %}
+      <article
+        class="nexus-card"
+        data-categories="{% for cat in entry_cats %}{{ cat | strip }}{% unless forloop.last %} {% endunless %}{% endfor %}"
+        data-name="{{ entry.name | downcase | escape }}"
+        {% if entry.tags and entry.tags.size > 0 %}data-tags="{{ entry.tags | join: " " | downcase | escape }}"{% endif %}
+      >
+        <div class="nexus-card-top">
+          <h3 class="nexus-card-title">{{ entry.name }}</h3>
+          <div class="nexus-badges">
+            {% for cat in entry_cats %}
+              {% assign cat_key = cat | strip %}
+              {% unless cat_key == "" %}
+                {% case cat_key %}
+                  {% when "guests" %}
+                    {% assign badge_label = "Featured Guest" %}
+                  {% when "exhibitors" %}
+                    {% assign badge_label = "Exhibitor" %}
+                  {% when "authors" %}
+                    {% assign badge_label = "Author" %}
+                  {% when "artists" %}
+                    {% assign badge_label = "Artist" %}
+                  {% when "panelists" %}
+                    {% assign badge_label = "Panelist" %}
+                  {% when "other" %}
+                    {% assign badge_label = "Attendee" %}
+                  {% when "not-attending" %}
+                    {% assign badge_label = "Not Attending" %}
+                  {% else %}
+                    {% assign badge_label = cat_key %}
+                {% endcase %}
+                <span class="nexus-badge nexus-badge-{{ cat_key }}">{{ badge_label }}</span>
+              {% endunless %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="nexus-card-actions">
+          {% if entry.url and entry.url != "" %}
+            <a href="{{ entry.url }}" class="nexus-link">Visit website</a>
           {% else %}
-            {% assign badge_label = cat_key %}
-        {% endcase %}
-        <article
-          class="nexus-card"
-          data-category="{{ cat_key }}"
-          data-name="{{ entry.name | downcase | escape }}"
-          {% if entry.tags and entry.tags.size > 0 %}data-tags="{{ entry.tags | join: " " | downcase | escape }}"{% endif %}
-        >
-          <div class="nexus-card-top">
-            <h3 class="nexus-card-title">{{ entry.name }}</h3>
-            <span class="nexus-badge nexus-badge-{{ cat_key }}">{{ badge_label }}</span>
-          </div>
-          <div class="nexus-card-actions">
-            {% if entry.url and entry.url != "" %}
-              <a href="{{ entry.url }}" class="nexus-link">Visit website</a>
-            {% else %}
-              <span class="nexus-link-disabled">No link available</span>
-            {% endif %}
-          </div>
-        </article>
-        {% endunless %}
-      {% endfor %}
+            <span class="nexus-link-disabled">No link available</span>
+          {% endif %}
+        </div>
+      </article>
     {% endfor %}
   </div>
 

@@ -25,11 +25,25 @@
 
   const knownFilters = new Set(["all", ...CATEGORY_ORDER]);
 
+  function cardCategories(card) {
+    const raw = card.dataset.categories || card.dataset.category || "";
+    return raw
+      .split(/[\s,]+/)
+      .map((value) => value.trim())
+      .filter(Boolean);
+  }
+
+  function primaryRank(card) {
+    const ranks = cardCategories(card).map(
+      (category) => categoryRank[category] ?? Number.MAX_SAFE_INTEGER
+    );
+    return ranks.length ? Math.min(...ranks) : Number.MAX_SAFE_INTEGER;
+  }
+
   const cards = Array.from(grid.querySelectorAll(".nexus-card")).sort(
     (a, b) => {
-      const rankA = categoryRank[a.dataset.category] ?? Number.MAX_SAFE_INTEGER;
-      const rankB = categoryRank[b.dataset.category] ?? Number.MAX_SAFE_INTEGER;
-      if (rankA !== rankB) return rankA - rankB;
+      const rankDiff = primaryRank(a) - primaryRank(b);
+      if (rankDiff !== 0) return rankDiff;
 
       return (a.dataset.name || "").localeCompare(b.dataset.name || "", undefined, {
         sensitivity: "base",
@@ -81,8 +95,9 @@
     let visible = 0;
 
     cards.forEach((card) => {
+      const categories = cardCategories(card);
       const matchesFilter =
-        currentFilter === "all" || card.dataset.category === currentFilter;
+        currentFilter === "all" || categories.includes(currentFilter);
       const matchesSearch =
         !query ||
         (card.dataset.name || "").includes(query) ||
