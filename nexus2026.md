@@ -33,7 +33,7 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
       {% include nexus_entry_categories.html entry=entry %}
       <article
         class="nexus-card"
-        data-categories="{% for cat in entry_cats %}{{ cat | strip }}{% unless forloop.last %} {% endunless %}{% endfor %}"
+        data-categories="{{ entry_cats | join: " " | downcase | escape }}"
         data-name="{{ entry.name | downcase | escape }}"
         {% if entry.tags and entry.tags.size > 0 %}data-tags="{{ entry.tags | join: " " | downcase | escape }}"{% endif %}
       >
