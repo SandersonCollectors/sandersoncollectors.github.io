@@ -1,0 +1,17 @@
+{% comment %}
+  Normalize entry.category into entry_cats (array of strings).
+  Supports:
+    category: authors
+    category: [authors, panelists]
+{% endcomment %}
+{% if include.entry.category == nil or include.entry.category == empty %}
+  {% assign entry_cats = "" | split: "," %}
+{% else %}
+  {% capture category_json %}{{ include.entry.category | jsonify }}{% endcapture %}
+  {% assign category_json = category_json | strip %}
+  {% if category_json contains "[" %}
+    {% assign entry_cats = include.entry.category %}
+  {% else %}
+    {% assign entry_cats = include.entry.category | split: "," %}
+  {% endif %}
+{% endif %}

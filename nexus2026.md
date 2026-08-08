@@ -8,11 +8,7 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
 
 {% assign total_cards = 0 %}
 {% for entry in site.data.nexus2026 %}
-  {% if entry.categories %}
-    {% assign entry_cats = entry.categories %}
-  {% else %}
-    {% assign entry_cats = entry.category | split: "," %}
-  {% endif %}
+  {% include nexus_entry_categories.html entry=entry %}
   {% assign total_cards = total_cards | plus: entry_cats.size %}
 {% endfor %}
 
@@ -38,13 +34,10 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
 
   <div class="nexus-grid" id="nexusGrid">
     {% for entry in site.data.nexus2026 %}
-      {% if entry.categories %}
-        {% assign entry_cats = entry.categories %}
-      {% else %}
-        {% assign entry_cats = entry.category | split: "," %}
-      {% endif %}
+      {% include nexus_entry_categories.html entry=entry %}
       {% for cat in entry_cats %}
         {% assign cat_key = cat | strip %}
+        {% unless cat_key == "" %}
         {% case cat_key %}
           {% when "guests" %}
             {% assign badge_label = "Featured Guest" %}
@@ -81,6 +74,7 @@ Browse featured guests, exhibitors, authors, artists, panelists, and other atten
             {% endif %}
           </div>
         </article>
+        {% endunless %}
       {% endfor %}
     {% endfor %}
   </div>
