@@ -13,6 +13,7 @@
     "exhibitors",
     "authors",
     "artists",
+    "panelists",
     "other",
     "not-attending",
   ];
