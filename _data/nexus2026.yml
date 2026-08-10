@@ -6,35 +6,51 @@
 
 - name: Holly Black
   url: https://blackholly.com/
-  category: guests
+  category: 
+    - guests
+    - authors
 
 - name: Jake Parker
   url: https://www.mrjakeparker.com/
-  category: guests
+  category: 
+    - guests
+    - artists
   
 - name: Joe Abercrombie
   url: https://joeabercrombie.com/
-  category: guests
+  category: 
+    - guests
+    - authors
 
 - name: Martha Wells
   url: https://www.marthawells.com/
-  category: guests
+  category: 
+    - guests
+    - authors
 
 - name: Matt Dinniman
   url: https://mattdinniman.com/
-  category: guests
+  category:
+    - guests
+    - authors
 
 - name: SA Chakraborty
   url: https://www.sachakraborty.com/
-  category: guests
+  category:
+    - guests
+    - authors
 
 - name: Sara Beth Durst
   url: http://www.sarahbethdurst.com/
-  category: guests
+  category:
+    - guests
+    - authors
 
 - name: Tran Nguyen
   url: https://www.mynameistran.com/
-  category: guests
+  category:
+    - guests
+    - artists
 
 - name: 17th Shard
   url: https://www.17thshard.com/
