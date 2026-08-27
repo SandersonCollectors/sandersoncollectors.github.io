@@ -6,25 +6,25 @@
 
 - name: Holly Black
   url: https://blackholly.com/
-  category: 
+  category:
     - guests
     - authors
 
 - name: Jake Parker
   url: https://www.mrjakeparker.com/
-  category: 
+  category:
     - guests
     - artists
-  
+
 - name: Joe Abercrombie
   url: https://joeabercrombie.com/
-  category: 
+  category:
     - guests
     - authors
 
 - name: Martha Wells
   url: https://www.marthawells.com/
-  category: 
+  category:
     - guests
     - authors
 
@@ -60,6 +60,10 @@
   url: https://www.crystalbarista.com/
   category: exhibitors
 
+- name: Aethon Books
+  url: https://aethonbooks.com/
+  category: exhibitors
+
 - name: Alpacasews / Emily Foster
   url: https://alpacasews.com/
   category: exhibitors
@@ -74,6 +78,10 @@
 
 - name: Black Oak Bindery
   url: https://www.blackoakbindery.com/
+  category: exhibitors
+
+- name: Blacksteel Press (Dustin Ballard)
+  url: https://www.blacksteelpress.com/
   category: exhibitors
 
 - name: Brotherwise Games
@@ -198,7 +206,7 @@
   url: https://thegildedteafling.com
   category: exhibitors
 
-- name: Tiffani Sahara / Dusty Rabbit
+- name: Tiffani Sahara / Dusty Rabbit (author & tabletop/book-services brand)
   url: https://www.tiffani-sahara.com/dusty-rabbit
   category: exhibitors
 
@@ -226,6 +234,10 @@
   url: https://www.adrianmgibson.com/
   category: authors
 
+- name: Alyssa Kelso
+  url: https://alyssakelso.com/
+  category: authors
+
 - name: Amber Hamilton
   url: https://www.amhamwrites.com/
   category: authors
@@ -236,6 +248,10 @@
 
 - name: Andy Peloquin
   url: https://andypeloquin.com/
+  category: authors
+
+- name: Ash Remington
+  url: https://www.facebook.com/ash.remington.2025
   category: authors
 
 - name: Becca Lee Gardner
@@ -260,6 +276,10 @@
 
 - name: Brian McClellan
   url: https://www.brianmcclellan.com/
+  category: authors
+
+- name: Brooke Stayrook
+  url: https://www.brookestayrook.com/
   category: authors
 
 - name: Bryan Asher
@@ -338,6 +358,10 @@
   url: https://www.haylockjobson.com/
   category: authors
 
+- name: J. Zachary Pike
+  url: https://jzacharypike.com/
+  category: authors
+
 - name: J.A. Andrews
   url: https://jaandrews.com/
   category: authors
@@ -348,6 +372,10 @@
 
 - name: Jacob John White (BellRinger)
   url: https://www.brbellringer.com/
+  category: authors
+
+- name: Jacquelyn Holmes
+  url: https://www.jacquelynholmesbooks.com/
   category: authors
 
 - name: Jade Kim Monsen
@@ -384,7 +412,7 @@
 
 - name: Kaitlund Zupanic (Drawn to Dragons)
   url: https://www.kaitlundzupanic.com/
-  category: artists
+  category: authors
 
 - name: Kate Korsak
   url: https://www.katekorsak.com/
@@ -422,6 +450,10 @@
   url: https://michaelmichelauthor.com/
   category: authors
 
+- name: Michael Mortenson
+  url: https://www.instagram.com/thescifihaiku/
+  category: authors
+
 - name: Michael R. Miller
   url: https://www.michaelrmiller.co.uk/
   category: authors
@@ -434,6 +466,10 @@
   url: https://nathanameye.com/
   category: authors
 
+- name: Nicholas W Fuller
+  url: https://www.nicholaswfuller.com/
+  category: authors
+
 - name: Nico Vincenty
   url: https://www.nicovincenty.com/
   category: authors
@@ -442,8 +478,16 @@
   url: https://www.orullian.rocks/
   category: authors
 
+- name: Phillip Walton
+  url: https://www.phillipwalton.com/
+  category: authors
+
 - name: Qilanna Quinn
   url: https://www.qilannaquinn.com/
+  category: authors
+
+- name: R. D. G. Lover
+  url: https://www.4pocalypsearts.com/
   category: authors
 
 - name: R. Lynn Hanks
@@ -466,8 +510,12 @@
   url: https://rosegarciabooks.com
   category: authors
 
-- name: Ryan Cahill
+- name: Ryan Cahill (contributed to Grimoire)
   url: https://www.ryancahillauthor.com/
+  category: authors
+
+- name: Ryan O'Neill
+  url: https://www.ryanoneillbooks.com/
   category: authors
 
 - name: S.A. Klopfenstein
@@ -482,8 +530,16 @@
   url: https://sethring.com/
   category: authors
 
+- name: Starr Z Davies
+  url: https://www.starrzdavies.com/
+  category: authors
+
 - name: Steve Diamond
   url: https://www.facebook.com/SteveDDiamond
+  category: authors
+
+- name: T. D. Orel
+  url: https://tdorelshop.com/
   category: authors
 
 - name: Tao Wong
@@ -498,6 +554,10 @@
   url: https://wanderinginn.com/
   category: authors
 
+- name: Tiffany Brazell
+  url: https://tiffanybrazell.com/
+  category: authors
+
 - name: Todd Fahnestock
   url: https://toddfahnestock.com/
   category: authors
@@ -506,8 +566,16 @@
   url: https://www.sourpatchhero.com/
   category: authors
 
+- name: Tori Danforth
+  url: https://www.instagram.com/authortoridanforth/
+  category: authors
+
 - name: Tori Lundell
   url: https://torilundell.com/
+  category: authors
+
+- name: Travis Bagwell
+  url: https://travisbagwell.com/
   category: authors
 
 - name: Tricia Levenseller
@@ -525,6 +593,10 @@
 - name: Z.S. Diamanti
   url: https://zsdiamanti.com/
   category: authors
+
+- name: Abbey Ash
+  url: https://www.artofabbeyash.com/
+  category: artists
 
 - name: Abi Park (The Nerdy Alchemist)
   url: https://thenerdyalchemist.com/
@@ -554,7 +626,7 @@
   url: https://www.artstation.com/anadia-chan
   category: artists
 
-- name: Ashley "Ash" Coad
+- name: Ashley "Ash" Coad (TENTATIVE – will attend, may not vend)
   url: http://www.ashleycoadart.com/
   category: artists
 
@@ -650,6 +722,10 @@
   url: https://marcuscomix.com/
   category: artists
 
+- name: Naomi Vandoren
+  url: https://naomivandoren.com/
+  category: artists
+
 - name: Noah Page
   url: https://www.sipofgrit.com/
   category: artists
@@ -694,106 +770,150 @@
   url: https://www.instagram.com/zoeshaffer_art/
   category: artists
 
-- name: Adoylible
+- name: Adoylible (cosplay photographer on IG)
   url: https://www.instagram.com/adoylible/
   category: other
 
 - name: Christopher Paolini
   url: https://www.paolini.net/
+  category: authors
+
+- name: Cosmere Horizons
+  url: https://www.instagram.com/cosmere_horizons/
+  category: other
+
+- name: OnceMore! Media
+  url: https://www.youtube.com/@OnceMoreUS
   category: other
 
 - name: Steve Pond / The Cosmerenaut
   url: https://www.instagram.com/thecosmerenaut/
   category: other
 
-- name: Zack Argyle
+- name: Zack Argyle (Author. Attending, not vending)
   url: https://www.zackargyle.com/
   category: other
 
 - name: A Charmed Life SLC
+  url:
+  category: not-attending
+
+- name: Aliya Chen
+  url: 
+  category: not-attending
+
+- name: Amelia Rose
   url: 
   category: not-attending
 
 - name: Aydin Rizqi
-  url: 
+  url:
   category: not-attending
 
 - name: Caitlin Sangster
-  url: 
+  url:
   category: not-attending
 
 - name: Daniel Quilter
-  url: 
+  url:
   category: not-attending
 
 - name: Donato Giancola (Donato Arts)
-  url: 
+  url:
   category: not-attending
 
 - name: Dragon Bone Publishing
-  url: 
+  url:
   category: not-attending
 
 - name: Grim Dyes
-  url: 
+  url:
   category: not-attending
 
 - name: H.Y. Gregor
-  url: 
+  url:
   category: not-attending
 
 - name: Invictus Armored Combat
-  url: 
+  url:
   category: not-attending
 
 - name: Jason Denzel
-  url: 
+  url:
   category: not-attending
 
 - name: J & D Gnomes & Crystals
+  url:
+  category: not-attending
+
+- name: JuLee
+  url: 
+  category: not-attending
+
+- name: Kathryn Purdie
   url: 
   category: not-attending
 
 - name: Kühn Products
+  url:
+  category: not-attending
+
+- name: Lichelle Slater
   url: 
   category: not-attending
 
 - name: Logan Piercey
+  url:
+  category: not-attending
+
+- name: Magi-Knights
+  url: 
+  category: not-attending
+
+- name: Mary Flint
   url: 
   category: not-attending
 
 - name: Michael J. Sullivan
-  url: 
+  url:
   category: not-attending
 
 - name: Nat20
-  url: 
+  url:
   category: not-attending
 
 - name: Natalie Brianne
+  url:
+  category: not-attending
+
+- name: Nerdy Girl
   url: 
   category: not-attending
 
 - name: Rachel Grant (Hemlock Ink)
-  url: 
+  url:
   category: not-attending
 
 - name: Robin Hobb
-  url: 
+  url:
   category: not-attending
 
 - name: Robin's Nerd Supplies
+  url:
+  category: not-attending
+
+- name: Ronie Kendig
   url: 
   category: not-attending
 
 - name: Shire Post Mint
-  url: 
+  url:
   category: not-attending
 
 - name: Tori Tecken
-  url: 
+  url:
   category: not-attending
 
 - name: Weston Warnock
-  url: 
+  url:
   category: not-attending
