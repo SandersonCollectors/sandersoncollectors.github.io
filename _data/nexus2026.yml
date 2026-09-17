@@ -1,3 +1,7 @@
+- name: Luke Chmilenko
+  url: https://lukechmilenko.com/
+  category: authors
+
 - name: Lyndsey Luther
   url: https://lyndseyluther.com
   category:
@@ -168,6 +172,10 @@
   url: https://papermothstudio.com/
   category: exhibitors
 
+- name: Poppy Books
+  url: https://www.poppybookssf.com/
+  category: exhibitors
+
 - name: Professor Rose Creations
   url: https://www.instagram.com/profrosecreations
   category: exhibitors
@@ -200,6 +208,10 @@
 
 - name: Tess Campbell (Tesselation Patterns)
   url: https://tesselationpatterns.com/
+  category: exhibitors
+
+- name: That Kilt Guy
+  url: https://www.instagram.com/thatkiltguy/
   category: exhibitors
 
 - name: The Gilded Teafling
@@ -244,6 +256,10 @@
 
 - name: Amber Rae Toro
   url: https://www.instagram.com/amberraetoro/
+  category: authors
+
+- name: Andrew Givler
+  url: https://andrewgivler.com/
   category: authors
 
 - name: Andy Peloquin
@@ -330,6 +346,10 @@
   url: https://ditoabbott.com/
   category: authors
 
+- name: Drew Hayes
+  url: https://www.drewhayesnovels.com/
+  category: authors
+
 - name: Elena Sobol
   url: https://www.elenasobolauthor.com/
   category: authors
@@ -340,6 +360,10 @@
 
 - name: Evan Leikam
   url: https://www.instagram.com/book_reviews_kill/
+  category: authors
+
+- name: Fonda Lee
+  url: https://www.fondalee.com/
   category: authors
 
 - name: G.J. Terral
@@ -380,6 +404,10 @@
 
 - name: Jade Kim Monsen
   url: https://www.jadekimmonsen.com/
+  category: authors
+
+- name: Jaime Castle
+  url: https://jaimecastle.com/
   category: authors
 
 - name: Janci Patterson
@@ -442,8 +470,18 @@
   url: https://mhwoodscourt.com/
   category: authors
 
+- name: M.L. Wang
+  url: https://mlwangbooks.com/
+  category:
+    - guests
+    - authors
+
 - name: Michelle J. Diaz
   url: https://michellejdiaz.com/
+  category: authors
+
+- name: Michael Chatfield
+  url: https://michaelchatfield.com/
   category: authors
 
 - name: Michael Michel
@@ -498,6 +536,10 @@
   url: https://rachelrener.com/
   category: authors
 
+- name: Ramón Terrell
+  url: https://ramonterrell.com/
+  category: authors
+
 - name: Ravenna Vale
   url: https://www.ravennavale.com/
   category: authors
@@ -510,7 +552,7 @@
   url: https://rosegarciabooks.com
   category: authors
 
-- name: Ryan Cahill (contributed to Grimoire)
+- name: Ryan Cahill
   url: https://www.ryancahillauthor.com/
   category: authors
 
@@ -576,6 +618,16 @@
 
 - name: Travis Bagwell
   url: https://travisbagwell.com/
+  category: authors
+
+- name: Travis Baldree
+  url: https://www.travisbaldree.com/
+  category:
+    - guests
+    - authors
+
+- name: Travis Deverell (Shirtaloon)
+  url: https://hewhofightswithmonsters.com/
   category: authors
 
 - name: Tricia Levenseller
@@ -754,6 +806,10 @@
   url: https://www.sarahfinnigan.com/
   category: artists
 
+- name: Shawn E Russell
+  url: https://www.shawnerussell.com/
+  category: artists
+
 - name: Sittrus Light (Makenna O'Keefe)
   url: https://www.instagram.com/sittruslight/
   category: artists
@@ -778,21 +834,49 @@
   url: https://www.paolini.net/
   category: authors
 
+- name: Alysha Fortune Reads
+  url: https://www.instagram.com/alyshafortunereads/
+  category: other
+
+- name: Bromantasy
+  url: https://www.instagram.com/bromantasy/
+  category: other
+
 - name: Cosmere Horizons
   url: https://www.instagram.com/cosmere_horizons/
+  category: other
+
+- name: gingerandthefoxes
+  url: https://www.instagram.com/gingerandthefoxes/
+  category: other
+
+- name: Jem Lugo
+  url: https://www.instagram.com/jemaginative
+  category: other
+
+- name: J.R. Sparks
+  url: https://www.instagram.com/sparks_books/
+  category: other
+
+- name: livedinlibrary
+  url: https://www.instagram.com/livedinlibrary/
   category: other
 
 - name: OnceMore! Media
   url: https://www.youtube.com/@OnceMoreUS
   category: other
 
+- name: Steampunk Garage
+  url: https://www.instagram.com/steampunkgarage/
+  category: exhibitors
+
 - name: Steve Pond / The Cosmerenaut
   url: https://www.instagram.com/thecosmerenaut/
-  category: other
+  category: exhibitors
 
 - name: Zack Argyle (Author. Attending, not vending)
   url: https://www.zackargyle.com/
-  category: other
+  category: authors
 
 - name: A Charmed Life SLC
   url:
@@ -824,6 +908,10 @@
 
 - name: Dragon Bone Publishing
   url:
+  category: not-attending
+
+- name: Games & Things
+  url: 
   category: not-attending
 
 - name: Grim Dyes
@@ -859,6 +947,10 @@
   category: not-attending
 
 - name: Lichelle Slater
+  url: 
+  category: not-attending
+
+- name: Kolby Hillman
   url: 
   category: not-attending
 
